@@ -18,7 +18,8 @@ class Automobile {
   
   public function __toString()
   {
-    return $this->LicencePlate;
+    return $this->Licence_Plate . " & " . $this->Brand . " & " . $this->Model;
   }
-  
-  
+}
+
+?>
