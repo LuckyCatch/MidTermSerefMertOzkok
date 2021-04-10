@@ -1,0 +1,11 @@
+include("index.php")
+
+<?php
+$oto = new Automobile();
+$oto->LicencePlate=$_POST["LicencePlate"];
+$oto->Brand=$_POST["Brand"];
+$oto->Model=$_POST["Model"];
+$oto->ModelYear=$_POST["ModelYear"];
+$oto->Color=$_POST["Color"];
+
+?>
